@@ -1,7 +1,7 @@
 # KEEPER website
 
 This repository contains the public KEEPER website at Halmstad University. It is a small static site built with
-[MkDocs](https://www.mkdocs.org/) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+[Zensical](https://zensical.org/).
 
 The website is deliberately Markdown-first: each public page is one ordinary Markdown file, and its headings, text,
 links, and lists are visible directly in that file.
@@ -39,7 +39,7 @@ Then start the live preview:
 make serve
 ```
 
-MkDocs serves the site at <http://127.0.0.1:8001/keeper/> and refreshes it when a Markdown file is saved. If that port
+Zensical serves the site at <http://127.0.0.1:8001/keeper/> and refreshes it when a Markdown file is saved. If that port
 is occupied, choose another one with `make serve PORT=8010`. Stop the server with `Ctrl+C`.
 
 Activate the environment again after opening a new terminal:
@@ -68,13 +68,13 @@ Run the complete pre-pull-request check:
 make check
 ```
 
-This checks Markdown formatting and quality, lints YAML, and runs a strict MkDocs build. GitHub Actions creates the same
-virtual environment and runs the same command.
+This checks Markdown formatting and quality, lints YAML, and runs a strict Zensical build. GitHub Actions creates the
+same virtual environment and runs the same command.
 
 To build without the other checks, run:
 
 ```bash
-mkdocs build --strict
+zensical build --strict
 ```
 
 The generated `site/` directory is disposable, ignored by Git, and must not be committed.

@@ -23,7 +23,7 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-Preview the website with `make serve` and open the address MkDocs prints. Stop the server with `Ctrl+C`.
+Preview the website with `make serve` and open the address Zensical prints. Stop the server with `Ctrl+C`.
 
 After opening a new terminal, run `source .venv/bin/activate` before using the site commands. If `requirements.txt`
 changes, update the environment with:
