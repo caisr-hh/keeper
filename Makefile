@@ -19,7 +19,7 @@ format:
 check:
 	mdformat --check $(MARKDOWN_FILES)
 	rumdl check --disable MD013 $(MARKDOWN_FILES)
-	yamllint $(YAML_FILES)
+	yamllint mkdocs.yml .yamllint.yml .github/workflows/site.yml
 	mkdocs build --strict
 
 .PHONY: create-env
