@@ -18,3 +18,6 @@ nav:
   - Projects: projects.md
   - Publications: publications.md
   - Partners: partners.md
+
+extra_css:
+  - stylesheets/extra.css
