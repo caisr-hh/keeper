@@ -9,6 +9,7 @@ Ordinary website changes only require basic Markdown. Each webpage is one file:
 
 - Change the landing page in `docs/index.md`.
 - Add or update a researcher in `docs/people.md`.
+- Add or update a project in `docs/projects.md`.
 
 ## Set up the website once
 
@@ -51,11 +52,13 @@ git switch -c update-project-description
 Write with ordinary headings, paragraphs, links, and lists. Follow the existing page structure so the content remains
 easy to scan.
 
-For example, to update the landing page:
+For example, to add a project:
 
-1. Open `docs/index.md`.
-1. Edit the relevant heading, paragraph, or list.
-1. Run `make serve` and review the Home page.
+1. Open `docs/projects.md`.
+1. Copy a similar project section.
+1. Replace the title, factual labels, and description.
+1. Move the section to the appropriate current or recent-project heading.
+1. Run `make serve` and review the Projects page.
 1. Run `make format`.
 1. Run `make check`.
 1. Review `git diff`.
