@@ -11,6 +11,7 @@ Production site: <https://caisr-hh.github.io/keeper/>
 ## Where to edit
 
 - `docs/index.md` — Home
+- `docs/people.md` — People
 
 `mkdocs.yml` contains the short site configuration and top navigation.
 
