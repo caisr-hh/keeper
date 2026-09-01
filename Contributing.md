@@ -1,6 +1,7 @@
 # Contributing
 
-> **Why this workflow?** All changes go through a short-lived branch and a reviewed pull request so that `master` stays clean, deployable, and easy to understand.
+> **Why this workflow?** All changes go through a short-lived branch and a reviewed pull request so that `master` stays
+> clean, deployable, and easy to understand.
 
 Do **not** commit or push directly to `master`.
 
@@ -60,8 +61,8 @@ Briefly describe what you changed and request a review from a colleague.
 If changes are requested:
 
 1. make the changes on the **same branch**;
-2. commit them;
-3. push again.
+1. commit them;
+1. push again.
 
 ```bash
 git add <files>
@@ -77,13 +78,13 @@ Because approvals become stale when new changes are pushed, the pull request mus
 
 Once the pull request is approved and all review conversations are resolved, use:
 
-**Rebase and merge**
+Choose **Rebase and merge**.
 
 Do not use a merge commit and do not push directly to `master`.
 
 After merging, the feature branch can be deleted.
 
----
+______________________________________________________________________
 
 ## If GitHub reports a merge conflict
 
