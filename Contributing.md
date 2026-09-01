@@ -73,7 +73,7 @@ git status
 git diff
 ```
 
-`make check` is the canonical pre-pull-request command.
+`make check` is the canonical pre-pull-request command and is exactly what the `quality` GitHub Actions job runs.
 
 ### 5. Commit your changes
 

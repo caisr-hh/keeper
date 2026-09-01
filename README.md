@@ -64,7 +64,8 @@ Run the complete pre-pull-request check:
 make check
 ```
 
-This checks Markdown formatting and quality, lints YAML, and runs a strict MkDocs build.
+This checks Markdown formatting and quality, lints YAML, and runs a strict MkDocs build. GitHub Actions creates the same
+virtual environment and runs the same command.
 
 To build without the other checks, run:
 
@@ -75,3 +76,16 @@ mkdocs build --strict
 The generated `site/` directory is disposable, ignored by Git, and must not be committed.
 
 See [Contributing.md](Contributing.md) for the branch and pull-request workflow.
+
+## GitHub Pages deployment
+
+Pull requests and pushes to `master` run the `quality` job. After a successful push to `master`, the workflow uploads
+the generated `site/` directory and deploys it through the official GitHub Pages actions.
+
+### Repository administrator setup
+
+These are one-time repository settings, not normal contributor steps:
+
+1. In **Settings → Pages**, choose **GitHub Actions** as the publishing source if it is not already selected.
+1. After the workflow has run at least once, add the `quality` job/status as a required check for `master` in the branch
+   protection rule or ruleset.
