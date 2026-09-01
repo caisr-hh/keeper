@@ -10,6 +10,7 @@ Ordinary website changes only require basic Markdown. Each webpage is one file:
 - Change the landing page in `docs/index.md`.
 - Add or update a researcher in `docs/people.md`.
 - Add or update a project in `docs/projects.md`.
+- Add a publication in `docs/publications.md`.
 
 ## Set up the website once
 
