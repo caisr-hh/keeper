@@ -1,9 +1,15 @@
-MARKDOWN_FILES = README.md Contributing.md
-YAML_FILES = .yamllint.yml
+MARKDOWN_FILES = docs/*.md README.md Contributing.md
+YAML_FILES = mkdocs.yml .yamllint.yml
 
 VENV ?= .venv
 PYTHON ?= python3
 VENV_PYTHON = $(VENV)/bin/python
+
+PORT ?= 8001
+
+.PHONY: serve
+serve:
+	mkdocs serve --dev-addr 127.0.0.1:$(PORT)
 
 .PHONY: format
 format:
@@ -14,6 +20,7 @@ check:
 	mdformat --check $(MARKDOWN_FILES)
 	rumdl check --disable MD013 $(MARKDOWN_FILES)
 	yamllint $(YAML_FILES)
+	mkdocs build --strict
 
 .PHONY: create-env
 create-env: ## Create the virtual environment and install the pinned dependencies.
