@@ -9,7 +9,7 @@ PORT ?= 8001
 
 .PHONY: serve
 serve:
-	mkdocs serve --dev-addr 127.0.0.1:$(PORT)
+	zensical serve --dev-addr 127.0.0.1:$(PORT)
 
 .PHONY: format
 format:
@@ -20,7 +20,7 @@ check:
 	mdformat --check $(MARKDOWN_FILES)
 	rumdl check --disable MD013 $(MARKDOWN_FILES)
 	yamllint mkdocs.yml .yamllint.yml .github/workflows/site.yml
-	mkdocs build --strict
+	zensical build --strict
 
 .PHONY: create-env
 create-env: ## Create the virtual environment and install the pinned dependencies.
