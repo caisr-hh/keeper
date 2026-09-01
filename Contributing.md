@@ -8,6 +8,7 @@ Do **not** commit or push directly to `master`.
 Ordinary website changes only require basic Markdown. Each webpage is one file:
 
 - Change the landing page in `docs/index.md`.
+- Add or update a researcher in `docs/people.md`.
 
 ## Set up the website once
 
