@@ -1,6 +1,19 @@
+MARKDOWN_FILES = README.md Contributing.md
+YAML_FILES = .yamllint.yml
+
 VENV ?= .venv
 PYTHON ?= python3
 VENV_PYTHON = $(VENV)/bin/python
+
+.PHONY: format
+format:
+	mdformat $(MARKDOWN_FILES)
+
+.PHONY: check
+check:
+	mdformat --check $(MARKDOWN_FILES)
+	rumdl check --disable MD013 $(MARKDOWN_FILES)
+	yamllint $(YAML_FILES)
 
 .PHONY: create-env
 create-env: ## Create the virtual environment and install the pinned dependencies.
