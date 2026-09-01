@@ -11,6 +11,7 @@ Ordinary website changes only require basic Markdown. Each webpage is one file:
 - Add or update a researcher in `docs/people.md`.
 - Add or update a project in `docs/projects.md`.
 - Add a publication in `docs/publications.md`.
+- Add or update a partner in `docs/partners.md`.
 
 ## Set up the website once
 
@@ -65,6 +66,9 @@ For example, to add a project:
 1. Review `git diff`.
 1. Commit and push the feature branch.
 1. Open a pull request.
+
+People, publications, projects, and partners work the same way: edit the one corresponding Markdown page and add a row,
+list item, or section.
 
 The top navigation is the short `nav` list in `mkdocs.yml`. To add a future top-level section, create one Markdown file
 in `docs/` and add one navigation entry.

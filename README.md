@@ -14,6 +14,7 @@ Production site: <https://caisr-hh.github.io/keeper/>
 - `docs/people.md` — People
 - `docs/projects.md` — Projects
 - `docs/publications.md` — Publications
+- `docs/partners.md` — Partners
 
 `mkdocs.yml` contains the short site configuration and top navigation.
 
