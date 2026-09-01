@@ -11,6 +11,8 @@ theme:
   palette:
     primary: indigo
     accent: blue
+  logo: images/keeper-logo-gradient.svg
+  favicon: images/keeper-logo-gradient.png
 
 nav:
   - Home: index.md
