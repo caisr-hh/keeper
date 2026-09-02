@@ -1,5 +1,4 @@
 MARKDOWN_FILES = docs/*.md README.md Contributing.md
-YAML_FILES = mkdocs.yml .yamllint.yml
 
 VENV ?= .venv
 PYTHON ?= python3
@@ -19,7 +18,7 @@ format:
 check:
 	mdformat --check $(MARKDOWN_FILES)
 	rumdl check --disable MD013 $(MARKDOWN_FILES)
-	yamllint mkdocs.yml .yamllint.yml .github/workflows/site.yml
+	yamllint .yamllint.yml .github/workflows/site.yml
 	zensical build --strict
 
 .PHONY: create-env

@@ -70,8 +70,8 @@ For example, to add a project:
 People, publications, projects, and partners work the same way: edit the one corresponding Markdown page and add a row,
 list item, or section.
 
-The top navigation is the short `nav` list in `mkdocs.yml`. To add a future top-level section, create one Markdown file
-in `docs/` and add one navigation entry.
+The top navigation is the short `nav` list in `zensical.toml`. To add a future top-level section, create one Markdown
+file in `docs/` and add one navigation entry.
 
 ### 4. Format and check your changes
 
