@@ -16,7 +16,7 @@ Production site: <https://caisr-hh.github.io/keeper/>
 - `docs/publications.md` — Publications
 - `docs/partners.md` — Partners
 
-`mkdocs.yml` contains the short site configuration and top navigation.
+`zensical.toml` contains the short site configuration and top navigation.
 
 ## Prerequisites
 
