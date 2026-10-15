@@ -37,3 +37,8 @@ labels follow the University's staff information.
 - Parisa Jamshidi — Doctoral Student
 - Canberk Özen — Doctoral Student
 - Niclas Wölner-Hanssen — Doctoral Student
+
+## Graduated doctoral students
+
+- Jenifer David
+- Anna Vettoruzzo
