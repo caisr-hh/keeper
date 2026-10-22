@@ -71,6 +71,8 @@ confirmed in a current authoritative public record.
 LEAD-AI strengthens AI literacy, responsible generative-AI use, adult learning and train-the-trainer capacity through a
 European collaboration.
 
+[Read the LEAD-AI project page](lead-ai.md)
+
 [Official LEAD-AI project information](https://www.hh.se/english/research/research-programmes/firp---future-industry-research-programme/research-projects-firp/lead-ai-empowering-adult-learners-and-educators-through-artificial-intelligence.html)
 
 ### Nordic MIL Simulator
