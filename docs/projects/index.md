@@ -132,6 +132,8 @@ measurement uncertainty in commercial heat pumps.
 PRIDE explored AI, natural-language processing and data-driven methods for improving heavy-duty vehicle diagnostics
 using under-utilised service and ranking information.
 
+[Read the PRIDE project page](pride.md)
+
 [Official PRIDE project information](https://www.vinnova.se/p/ranking-data-for-ai-driven-precision-diagnostics-in-heavy-duty-trucks-pride/)
 
 ### FREEPORT

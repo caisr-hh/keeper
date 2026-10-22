@@ -10,6 +10,7 @@ nav = [
         "projects/index.md",
         { "FREEWAY" = "projects/freeway.md" },
         { "LEAD-AI" = "projects/lead-ai.md" },
+        { "PRIDE" = "projects/pride.md" },
     ] },
     { "Publications" = "publications.md" },
     { "Partners" = "partners.md" },
