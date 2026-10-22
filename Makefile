@@ -1,4 +1,4 @@
-MARKDOWN_FILES = docs/*.md README.md Contributing.md
+MARKDOWN_FILES = docs/*.md docs/projects/*.md README.md Contributing.md
 
 VENV ?= .venv
 PYTHON ?= python3

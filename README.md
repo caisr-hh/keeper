@@ -12,7 +12,8 @@ Production site: <https://caisr-hh.github.io/keeper/>
 
 - `docs/index.md` — Home
 - `docs/people.md` — People
-- `docs/projects.md` — Projects
+- `docs/projects/index.md` — Projects (landing page)
+- `docs/projects/<project-name>.md` — individual projects
 - `docs/publications.md` — Publications
 - `docs/partners.md` — Partners
 

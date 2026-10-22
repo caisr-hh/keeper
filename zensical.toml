@@ -4,17 +4,20 @@ site_url = "https://caisr-hh.github.io/keeper/"
 site_description = "Industrial AI research for efficient and predictable operations at Halmstad University."
 repo_url = "https://github.com/caisr-hh/keeper"
 nav = [
-  { "Home" = "index.md" },
-  { "People" = "people.md" },
-  { "Projects" = "projects.md" },
-  { "Publications" = "publications.md" },
-  { "Partners" = "partners.md" },
+    { "Home" = "index.md" },
+    { "People" = "people.md" },
+    { "Projects" = [
+        "projects/index.md",
+        { "FREEWAY" = "projects/freeway.md" },
+    ] },
+    { "Publications" = "publications.md" },
+    { "Partners" = "partners.md" },
 ]
 extra_css = ["stylesheets/extra.css"]
 
 [project.theme]
 variant = "modern"
-features = ["navigation.tabs"]
+features = ["navigation.tabs", "navigation.indexes"]
 palette.primary = "indigo"
 palette.accent = "blue"
 logo = "images/keeper-logo-gradient.svg"

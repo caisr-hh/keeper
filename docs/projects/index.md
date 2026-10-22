@@ -32,6 +32,8 @@ network assets. The research is organised around DataScape, KnowScape and Divers
 FREEWAY develops asynchronous federated learning, edge processing and MLOps for heterogeneous vehicle fleets. Use cases
 include energy forecasting, vehicle-operation profiling, activity recognition and anomaly detection.
 
+[Read the FREEWAY project page](freeway.md)
+
 [Official FREEWAY project information](https://www.hh.se/english/research/research-programmes/firp---future-industry-research-programme/research-projects-firp/freeway---automating-asynchronous-federated-learning-and-edge-computing-for-efficient-vehicle-operation-analytics.html)
 
 ### AIM-FLIX

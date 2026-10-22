@@ -1,11 +1,12 @@
 # KEEPER
 
-The KEEPER Synergy project [Knowledge Creation for Efficient and Predictable Industrial Operations](projects.md#keeper)
-is an overarching initiative strategically designed to scientifically profile research activities at Halmstad University
-and to ensure long-term collaboration between Halmstad University and key industrial partners in industrial artificial
-intelligence, thereby enabling efficient and predictable operations. The work combines machine learning research with
-real industrial data and close collaboration with companies and research partners. It mainly develops AI and machine
-learning methods for turning largely unlabelled operational data into actionable industrial knowledge.
+The KEEPER Synergy project
+[Knowledge Creation for Efficient and Predictable Industrial Operations](projects/index.md#keeper) is an overarching
+initiative strategically designed to scientifically profile research activities at Halmstad University and to ensure
+long-term collaboration between Halmstad University and key industrial partners in industrial artificial intelligence,
+thereby enabling efficient and predictable operations. The work combines machine learning research with real industrial
+data and close collaboration with companies and research partners. It mainly develops AI and machine learning methods
+for turning largely unlabelled operational data into actionable industrial knowledge.
 
 KEEPER entails research in the industrial track of the Center for Applied Intelligent Systems Research (CAISR). The
 KEEPER project is funded by KKS, the Knowledge Foundation, and balances business-relevant research questions defined by
@@ -53,13 +54,13 @@ of distributed data and previously acquired knowledge.
 
 ### FREEWAY
 
-[FREEWAY](projects.md#freeway) develops asynchronous federated learning, edge processing and MLOps for heterogeneous
-commercial-vehicle fleets.
+[FREEWAY](projects/index.md#freeway) develops asynchronous federated learning, edge processing and MLOps for
+heterogeneous commercial-vehicle fleets.
 
 ### AIM-FLIX
 
-[AIM-FLIX](projects.md#aim-flix) investigates AI-supported multi-echelon inventory management for automotive aftermarket
-supply chains.
+[AIM-FLIX](projects/index.md#aim-flix) investigates AI-supported multi-echelon inventory management for automotive
+aftermarket supply chains.
 
 ## Industrial collaboration
 
