@@ -119,6 +119,20 @@ development. Halmstad University participates in the wider European consortium.
 ENGADE investigates foundational methods and diffusion-based approaches for anomaly detection in time-series data. Exact
 dates are omitted pending confirmation from an authoritative public project record.
 
+### UNIFY-AI
+
+**Full title:** Time-Series Foundation Models and Robust MLOps for Industrial Fleet Data\
+**Funder:** Vinnova, FFI programme, and partner co-funding\
+**Partners:** Halmstad University and Volvo Group
+
+UNIFY-AI develops time-series foundation models and robust MLOps workflows for heterogeneous industrial fleet data. The
+project aims to learn reusable representations across diverse vehicle fleets, adapt foundation models to specific
+prediction tasks, and establish reproducible workflows for data preparation, training, evaluation, deployment and
+monitoring. Through industrial validation, UNIFY-AI seeks to improve model transferability, reduce development effort
+and support scalable, reliable AI services for vehicle uptime and aftermarket applications.
+
+[Read the UNIFY-AI project page](unify-ai.md)
+
 ## Recent and completed projects
 
 ### PREMA-HEAPS
