@@ -4,6 +4,19 @@ KEEPER overlaps with a wider body of industrial AI research at Halmstad Universi
 through people, methods or application areas, but they do not all belong to the single KKS-funded KEEPER Synergy
 project.
 
+## Research portfolio
+
+The diagram shows KEEPER and related projects. Select **FREEWAY**, **LEAD-AI**, or **PRIDE** to open their dedicated
+project pages. The complete project directory follows below.
+
+<!-- rumdl-disable MD033 -->
+
+<object data="../images/projects-portfolio.svg" type="image/svg+xml" aria-label="KEEPER research portfolio" style="display: block; width: 100%; aspect-ratio: 16 / 9;">
+  <a href="#current-projects">Browse the project directory</a>.
+</object>
+
+<!-- rumdl-enable MD033 -->
+
 ## Current projects
 
 ### KEEPER
