@@ -100,6 +100,8 @@ The project develops a maritime simulation and decision-support platform for eva
 real operational data and validated models. Mikael Andersson contributes from Halmstad University; project coordination
 sits with CetaSol AB.
 
+[Project information](Nordic-MIL.md)
+
 [Swedish Energy Agency project record](https://www.energimyndigheten.se/forskning-och-innovation/data-om-finansiering-av-forskning-och-innovation/projektdatabas/sokresultat/?registrationnumber=2025-204381)
 
 ### WELDIFY
