@@ -8,10 +8,11 @@ nav = [
     { "People" = "people.md" },
     { "Projects" = [
         "projects/index.md",
+        { "AIM-FLIX" = "projects/aim-flix.md" },
         { "FREEWAY" = "projects/freeway.md" },
         { "LEAD-AI" = "projects/lead-ai.md" },
-        { "UNIFY-AI" = "projects/unify-ai.md" },
         { "PRIDE" = "projects/pride.md" },
+        { "UNIFY-AI" = "projects/unify-ai.md" },
     ] },
     { "Publications" = "publications.md" },
     { "Partners" = "partners.md" },
