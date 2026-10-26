@@ -75,6 +75,8 @@ AI-MARiE studies machine activity recognition for forklifts and material-handlin
 data, representation learning, domain adaptation and edge analytics. The end date is omitted because it has not been
 confirmed in a current authoritative public record.
 
+[Read the AI-MARiE project page](ai-marie.md)
+
 [Åforsk funded-project listing](https://aforsk.com/en/PreviousWinners)
 
 ### LEAD-AI
