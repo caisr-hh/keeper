@@ -8,6 +8,7 @@ nav = [
     { "People" = "people.md" },
     { "Projects" = [
         "projects/index.md",
+        { "AI-MARiE" = "projects/ai-marie.md" },
         { "AIM-FLIX" = "projects/aim-flix.md" },
         { "FREEWAY" = "projects/freeway.md" },
         { "LEAD-AI" = "projects/lead-ai.md" },
