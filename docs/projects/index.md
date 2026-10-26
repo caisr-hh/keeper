@@ -61,6 +61,8 @@ include energy forecasting, vehicle-operation profiling, activity recognition an
 AIM-FLIX builds on AIM-TRUE to investigate reinforcement-learning-supported multi-echelon inventory management,
 forecasting, shared stocking and survival-analysis-based decision support for automotive aftermarket supply chains.
 
+[Read the AIM-FLIX project page](aim-flix.md)
+
 [Official AIM-FLIX project information](https://www.hh.se/english/research/research-programmes/firp---future-industry-research-programme/research-projects-firp/aim-flix---ai-driven-inventory-management-for-flexible-and-efficient-nextgen-supply-chains.html)
 
 ### AI-MARiE
