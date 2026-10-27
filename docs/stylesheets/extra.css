@@ -30,3 +30,61 @@
 .md-typeset h3 {
     font-weight: 500;
 }
+
+/* HH-inspired styling of existing Zensical elements; no layout changes. */
+
+/* Strong university-blue header with a restrained bright-blue accent. */
+.md-header {
+    background-color: var(--keeper-blue-dark);
+    color: #fff;
+    border-bottom: 2px solid var(--keeper-blue-bright);
+    box-shadow: none;
+}
+
+/* Light navigation strip with clear selected-tab indication. */
+.md-tabs {
+    background-color: #fff;
+    color: var(--keeper-blue-dark);
+    border-bottom: 1px solid var(--keeper-blue-light);
+}
+
+.md-tabs__link {
+    color: var(--keeper-blue-dark);
+    opacity: 0.8;
+    border-bottom: 3px solid transparent;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+    color: var(--keeper-blue-dark);
+    opacity: 1;
+    border-bottom-color: var(--keeper-blue);
+}
+
+/* Echo the palette in headings, content links and active side navigation. */
+.md-typeset h2 {
+    border-bottom-color: var(--keeper-blue-light);
+}
+
+.md-typeset a {
+    color: var(--keeper-blue);
+}
+
+.md-typeset a:hover {
+    color: var(--keeper-blue-dark);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+.md-nav__link--active {
+    color: var(--keeper-blue-dark);
+    font-weight: 700;
+}
+
+/* Preserve visible keyboard focus on light navigation and content areas. */
+.md-tabs__link:focus-visible,
+.md-nav__link:focus-visible,
+.md-typeset a:focus-visible {
+    outline: 2px solid var(--keeper-blue-dark);
+    outline-offset: 2px;
+}
