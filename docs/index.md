@@ -52,15 +52,7 @@ of distributed data and previously acquired knowledge.
 
 ## Selected connected projects
 
-### FREEWAY
-
-[FREEWAY](projects/index.md#freeway) develops asynchronous federated learning, edge processing and MLOps for
-heterogeneous commercial-vehicle fleets.
-
-### AIM-FLIX
-
-[AIM-FLIX](projects/index.md#aim-flix) investigates AI-supported multi-echelon inventory management for automotive
-aftermarket supply chains.
+See [Projects](projects/index.md) tab for a list of all projects.
 
 ## Industrial collaboration
 
