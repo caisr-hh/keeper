@@ -11,6 +11,7 @@ nav = [
         { "AI-MARiE" = "projects/ai-marie.md" },
         { "AIM-FLIX" = "projects/aim-flix.md" },
         { "FREEWAY" = "projects/freeway.md" },
+        { "FEEL-AI" = "projects/feel-ai.md" },
         { "LEAD-AI" = "projects/lead-ai.md" },
         { "PRIDE" = "projects/pride.md" },
         { "UNIFY-AI" = "projects/unify-ai.md" },
