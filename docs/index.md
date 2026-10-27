@@ -59,3 +59,13 @@ See [Projects](projects/index.md) tab for a list of all projects.
 KEEPER research is carried out with industrial companies across transport, material handling, maritime equipment,
 industrial communication and energy systems, together with research and innovation organisations. See the
 [Partners page](partners.md) for the current overview.
+
+## Latest from KEEPER on LinkedIn
+
+<!-- rumdl-disable MD033 -->
+
+<iframe src="https://www.linkedinembed.com/embed/Il9BB8gSCTE9BK1C4RJs" title="LinkedIn widget" loading="lazy" style="width:100%;height:640px;border:0;color-scheme:normal;" allowtransparency="true"></iframe>
+
+<!-- rumdl-enable MD033 -->
+
+[View all KEEPER updates on LinkedIn](https://www.linkedin.com/company/keeper-halmstad-university/)
