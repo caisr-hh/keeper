@@ -1,3 +1,24 @@
+/* Halmstad University-inspired palette (official blue values). */
+:root {
+    --keeper-blue-dark: #004985;
+    --keeper-blue: #006db0;
+    --keeper-blue-bright: #22bbea;
+    --keeper-blue-light: #96c0e3;
+}
+
+:root > * {
+    --md-primary-fg-color: var(--keeper-blue-dark);
+    --md-primary-fg-color--light: var(--keeper-blue-light);
+    --md-primary-fg-color--dark: var(--keeper-blue-dark);
+    --md-accent-fg-color: var(--keeper-blue);
+}
+
+/* Match the existing heading hierarchy to the university-inspired palette. */
+.md-typeset h1,
+.md-typeset h2 {
+    color: var(--keeper-blue-dark);
+}
+
 /* increase H2 weight + separator to emphasize H2 */
 .md-typeset h2 {
     font-weight: 700;
