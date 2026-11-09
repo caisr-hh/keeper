@@ -50,6 +50,23 @@ include energy forecasting, vehicle-operation profiling, activity recognition an
 
 [Official FREEWAY project information](https://www.hh.se/english/research/research-programmes/firp---future-industry-research-programme/research-projects-firp/freeway---automating-asynchronous-federated-learning-and-edge-computing-for-efficient-vehicle-operation-analytics.html)
 
+### FEEL-AI
+
+- **Full title:** Federated Predictive Models on Edge for the Logistics Industry
+- **Period:** May 2024–September 2026
+- **Coordinator:** Halmstad University (CAISR)
+- **Funder:** Vinnova
+- **Industrial partners:** Volvo Group Trucks Technology and Toyota Material Handling Europe
+
+FEEL-AI investigated federated and collaborative machine learning for predictive maintenance across distributed
+industrial environments. The project combined research on heterogeneous learning, explainability, model merging and
+robustness with practical work on industrial data and reproducible modelling workflows. Its outcomes contributed to the
+follow-up UNIFY-AI project and the SOMI 2026 workshop.
+
+[Read the FEEL-AI project page](feel-ai.md)
+
+[Official FEEL-AI project information](https://www.vinnova.se/en/p/feelai-federated-predictive-models-on-edge-for-the-logistic-industry)
+
 ### AIM-FLIX
 
 - **Full title:** AI-driven inventory management for flexible and efficient next-generation supply chains
